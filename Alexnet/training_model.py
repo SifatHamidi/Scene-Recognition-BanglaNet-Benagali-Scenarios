@@ -103,5 +103,4 @@ fit_history=model.fit_generator(train_gen,steps_per_epoch = train_steps_per_epoc
                                 validation_steps = val_steps_per_epoch,
                                 callbacks  =[cb_checkpointer,cb_early_stopper,reducelr, tensorboard_callback])
 
-# Commented out IPython magic to ensure Python compatibility.
-# %tensorboard --logdir logs
+ %tensorboard --logdir logs
