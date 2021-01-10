@@ -8,3 +8,5 @@ to country we need more data on our country’s scenes and objects to jumpstart 
 of the system by cutting down run time and removed the barrier of lower-end GPUs. Recent models
 with residual, parallel, and bottleneck layers had shown better performance than traditional models
 like VGG and AlexNet.
+
+Dataset Link : https://www.kaggle.com/sifathamidi/banglanet
