@@ -67,6 +67,8 @@ for k,v in train_gen.class_indices.items():
     back2label[v] = k
 print(back2label)
 
+#Image visulization with labels
+
 x_batch, y_batch = next(train_gen)
 for i in range (0, 10):   
   image = x_batch[i]  
